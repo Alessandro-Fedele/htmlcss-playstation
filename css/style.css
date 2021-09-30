@@ -1,0 +1,75 @@
+:root {
+    --bs-dark-rgb: 0,0,0;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2.3rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+} 
+
+h5 {
+    font-size: 0.9rem;
+}
+
+.section-base {
+    margin: 40px 0px;
+}
+
+.section-hero {
+    margin-top: 325px;
+}
+
+.section-medium {
+    margin: 50px 0;
+}
+
+.section-large {
+    margin: 60px 0;
+}
+
+.section-super {
+    margin-bottom: 5px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-subtitle {
+    margin-bottom: 30px;
+}
+
+.section-title-small {
+    margin-bottom: 20px;
+}
+
+.sony-logo {
+    width: 80px;
+}
+
+.my-hero {
+    background-image: url(../img/img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#lens {
+    width: 25px;
+}
+
+.rounded-20 {
+    border-radius: 20px;
+}
+
+.mini-img-container:hover {
+    border-radius: 20px;
+    border: 2px solid rgb(0, 144, 206);
+    padding: 1px;
+}
