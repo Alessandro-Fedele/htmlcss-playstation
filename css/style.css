@@ -50,6 +50,12 @@ h5 {
     margin-bottom: 20px;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+} 
+
 .sony-logo {
     width: 80px;
 }
@@ -77,6 +83,7 @@ h5 {
 .mini-img-container img:hover {
     border-radius: 20px;
     border: 2px solid rgb(0, 144, 206);
+    transform: translateY(-5px);
 }
 
 .active-returnal {
@@ -185,6 +192,34 @@ footer ul li a:hover {
 
 .btn {
     font-weight: 500;
+}
+
+header .navbar-nav .nav-link + .dropdown-menu {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 110px;
+    border: 0;
+    border-radius: 0;
+    border-top: 1px solid lightgray;
+    justify-content: center;
+}
+
+header .navbar-nav .nav-link:focus + .dropdown-menu {
+    display: block;
+    text-align: center;
+}
+
+header .navbar-nav .nav-link:hover {
+    color: #0072ce !important
+}
+
+header .navbar-nav .nav-link:focus {
+    color: #0072ce !important
+}
+
+.dropdown-item {
+    width: 18%;
 }
 
 @media (min-width: 768px) {
